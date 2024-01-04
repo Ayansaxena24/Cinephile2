@@ -16,7 +16,7 @@ function App() {
         <Header />
         </div>
         <Routes>
-          <Route path='/IMDB-Clone' index element={<Home />}></Route>
+          <Route path='/' index element={<Home />}></Route>
           <Route path="movie/:id" element={<Movie />}></Route>
           <Route path="movie2/:id" element={<Movie2 />}></Route>
           <Route path="movies/:type" element={<MovieList />}></Route>
